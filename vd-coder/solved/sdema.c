@@ -6,10 +6,7 @@ char input[1000001];
 int count,i;
 
 int main() {
-  FILE *in = stdin;
-  FILE *out = stdout;
-
-  fscanf(in,"%s",input);
+  scanf("%s",input);
 
   count = 0,i = 0;
 
@@ -18,7 +15,7 @@ int main() {
     ++i;
   }
 
-  fprintf(out,"%d",count);
+  printf("%d",count);
 
   return 0;
 }
