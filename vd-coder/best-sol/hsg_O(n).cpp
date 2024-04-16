@@ -14,7 +14,7 @@ int main() {
 
   i = 0;
   while (str[i] ^ '\0') {
-    switch (str[i]) 
+    switch (str[i]) {
       case 'h':
         ++h_count;
         break;
